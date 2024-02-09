@@ -20,9 +20,7 @@ def get_player_numbers():
 
 # Lottery calculates 6 random numbers (between 1 and 20)
 def create_lottery_numbers():
-    values = set()  # Cannot initialise like so: {}
-    while len(values) < 6:
-        values.add(random.randint(1, 20))
+   
     return values
 
 #missing code - can be provided upon request.
